@@ -1,0 +1,125 @@
+.navbar
+{
+	height: 50px;
+	width: 100%;
+	display: flex;
+	border-radius: 20px;
+	background-color: lightgreen;
+}
+.nav1
+{
+	width: 30%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.nav1 h4
+{
+	background-color: darkgreen;
+	color: #fff;
+	padding: 8px 20px;
+	border-radius: 12px;
+	margin: 10px;
+	cursor: pointer;
+}
+.nav1 h4 i
+{
+	margin-right: 8px;
+}
+
+.nav2
+{
+	width: 40%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.nav2 i
+{
+	padding: 5px;
+	background-color: darkgreen;
+	border-radius: 5px;
+	color: #fff;
+	margin-right: 8px;
+	cursor: pointer;
+}
+.nav3
+{
+	width: 30%;
+	height: 100%;
+	text-align: right;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.nav3 h4
+{
+	background-color: darkgreen;
+	color: #fff;
+	padding: 8px 20px;
+	border-radius: 12px;
+	margin: 10px;
+	cursor: pointer;
+}
+.nav3 h4 i
+{
+	margin-left: 8px;
+	font-size: 10px;
+}
+
+.nav3 #bar
+{
+	display: none;
+}
+
+@media (max-width:451px)
+{
+	.nav1
+	{
+		width: 35%;
+	}
+	.nav2
+	{
+		width: 25%;
+	}
+	.nav3
+	{
+		width: 40%;
+	}
+}
+@media (max-width:400px)
+{
+	.nav1
+	{
+		display: none;
+	}
+	.nav2
+	{
+		width: 50%;
+
+	}
+	.nav2 h4
+	{
+		margin-right: 50px;
+	}
+	.nav3
+	{
+		width: 50%;
+	}
+	.nav3 h4
+	{
+		display: none;
+	}
+	.nav3 #bar
+	{
+		display: block;
+		padding: 5px;
+		background-color: darkgreen;
+		border-radius: 5px;
+		color: #fff;
+		margin-right: 20px;
+		cursor: pointer;
+
+	}
+}
